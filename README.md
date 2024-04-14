@@ -1,5 +1,6 @@
 # Attendance-System
 1.)First please download the libraries of python which are face_recognition , dilib , opencv-python , numpy , Python compiler for VsCode.
+
 2.)Now create a folder in the desktop named project and copy these files of photos and maincode in it.
 3.)Now in this maincode give the locations of the images in it.
 4.)Now run the code using vs code.
