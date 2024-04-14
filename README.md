@@ -20,11 +20,33 @@ A facial recognition attendance system is a biometric solution that automates th
 
 In summary, facial recognition attendance systems enhance efficiency, accuracy, and security in attendance management. 
 
+## TechStack Used
+1. Image Processing and Recognition Libraries:
+   - OpenCV: A powerful open-source computer vision library that provides tools for image processing, face detection, and feature extraction.
+   - Dlib: A C++ library with Python bindings for machine learning, including facial recognition and feature extraction.
+2. Programming Languages:
+   - Python: Widely used for its simplicity, extensive libraries, and community support. Python is the primary language for implementing facial recognition
+   algorithms.
+3. Additional Libraries and Tools:
+   - Numpy and Pandas: For data manipulation and analysis.
+   - Face Encodings: Used to represent facial features numerically for comparison.
+## Libraries and Dependencies Required
+1. Install all these libraries from cmd:
+   - OpenCv-python
+   - dilib
+   - cmake
+   - numpy
+   - pandas
+   - face_recognition
+     ```bash
+        pip install OpenCv-python dilib cmake numpy pandas face_recognition
+     ```
+2. Download the python compiler to run it in the VScode.
 
 ## How to run the code
 1.)First please download the libraries of python which are face_recognition , dilib , opencv-python , numpy , Python compiler for VsCode.
 
-2.)Now create a folder in the desktop named project and copy these files of photos and maincode in it.
+2.)Now create a folder in the desktop named byteverse and copy these files of photos and maincode in it.
 
 3.)Now in this maincode give the locations of the images in it.
 
@@ -32,4 +54,4 @@ In summary, facial recognition attendance systems enhance efficiency, accuracy, 
 
 5.)Now bring the faces which were given in the photos folder onto the webcam and their attendance will be marked.
 
-6.)Now this marked attendance is shown on the Excel file which is created in our project folder only which is in the desktop.
+6.)Now this marked attendance list is shown on the Excel file which is created in our byteverse folder only which is in the desktop.
